@@ -1,12 +1,13 @@
+const path = require("path");
+
 module.exports = {
   entry: "./src/index.js",
   output: {
-    filename: "bundle.js",
-    path: __dirname + "/build"
+    path: path.join(__dirname, "public"),
+    filename: "main.js"
   },
   devServer: {
-    watchContentBase: true,
-    contentBase: path.join(__dirname, 'public')
+    port: 3000
   }
 }
 
