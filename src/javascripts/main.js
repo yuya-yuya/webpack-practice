@@ -1,5 +1,5 @@
 import { hello } from "./sub";
-import "./style.css";
+import "../stylesheets/style.css";
 
 hello();
 console.log("webpackです");

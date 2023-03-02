@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/javascripts/main.js",
   output: {
     path: path.join(__dirname, "public"),
     filename: "./javascripts/main.js"
@@ -29,7 +29,7 @@ module.exports = {
       filename: './stylesheets/style.css'
     }),
     new HtmlWebpackPlugin({
-      template: "./src/index.html"
+      template: "./src/templates/index.html"
     }),
     new CleanWebpackPlugin()
   ],
