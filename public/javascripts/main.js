@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/stylesheets/style.css":
-/*!***********************************!*\
-  !*** ./src/stylesheets/style.css ***!
-  \***********************************/
+/***/ "./src/stylesheets/style.scss":
+/*!************************************!*\
+  !*** ./src/stylesheets/style.scss ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-practice/./src/stylesheets/style.css?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-practice/./src/stylesheets/style.scss?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sub__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sub */ \"./src/javascripts/sub.js\");\n/* harmony import */ var _stylesheets_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stylesheets/style.css */ \"./src/stylesheets/style.css\");\n\n\n\n(0,_sub__WEBPACK_IMPORTED_MODULE_0__.hello)();\nconsole.log(\"webpackです\");\n\n\n//# sourceURL=webpack://webpack-practice/./src/javascripts/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sub__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sub */ \"./src/javascripts/sub.js\");\n/* harmony import */ var _stylesheets_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stylesheets/style.scss */ \"./src/stylesheets/style.scss\");\n\n\n\n(0,_sub__WEBPACK_IMPORTED_MODULE_0__.hello)();\nconsole.log(\"webpackです\");\n\n\n//# sourceURL=webpack://webpack-practice/./src/javascripts/main.js?");
 
 /***/ }),
 
