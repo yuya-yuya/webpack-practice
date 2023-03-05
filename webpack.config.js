@@ -51,6 +51,9 @@ module.exports = {
               esModule: false,
               name: "images/[name].png"
             }
+          },
+          {
+            loader: "image-webpack-loader"
           }
         ]
       },
